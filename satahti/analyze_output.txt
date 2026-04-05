@@ -1,0 +1,103 @@
+Analyzing satahti...
+
+  error • Target of URI doesn't exist: 'package:cloud_firestore/cloud_firestore.dart' • lib/core/models/request_model.dart:1:8 • uri_does_not_exist
+  error • Undefined class 'GeoPoint' • lib/core/models/request_model.dart:12:9 • undefined_class
+  error • The name 'Timestamp' isn't a type, so it can't be used in an 'as' expression • lib/core/models/request_model.dart:66:39 • cast_to_non_type
+  error • Target of URI doesn't exist: 'package:firebase_auth/firebase_auth.dart' • lib/core/providers/auth_provider.dart:2:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'package:cloud_firestore/cloud_firestore.dart' • lib/core/providers/auth_provider.dart:3:8 • uri_does_not_exist
+  error • Undefined class 'FirebaseAuth' • lib/core/providers/auth_provider.dart:7:9 • undefined_class
+  error • Undefined name 'FirebaseAuth' • lib/core/providers/auth_provider.dart:7:30 • undefined_identifier
+  error • Undefined class 'FirebaseFirestore' • lib/core/providers/auth_provider.dart:8:9 • undefined_class
+  error • Undefined name 'FirebaseFirestore' • lib/core/providers/auth_provider.dart:8:40 • undefined_identifier
+  error • Undefined class 'PhoneAuthCredential' • lib/core/providers/auth_provider.dart:24:31 • undefined_class
+  error • Undefined class 'FirebaseAuthException' • lib/core/providers/auth_provider.dart:27:28 • undefined_class
+  error • Undefined class 'PhoneAuthCredential' • lib/core/providers/auth_provider.dart:51:7 • undefined_class
+  error • Undefined name 'PhoneAuthProvider' • lib/core/providers/auth_provider.dart:51:40 • undefined_identifier
+  error • Undefined class 'UserCredential' • lib/core/providers/auth_provider.dart:55:7 • undefined_class
+  error • Undefined class 'DocumentSnapshot' • lib/core/providers/auth_provider.dart:64:5 • undefined_class
+  error • Target of URI doesn't exist: 'package:cloud_firestore/cloud_firestore.dart' • lib/core/providers/driver_provider.dart:2:8 • uri_does_not_exist
+  error • Undefined class 'FirebaseFirestore' • lib/core/providers/driver_provider.dart:6:9 • undefined_class
+  error • Undefined name 'FirebaseFirestore' • lib/core/providers/driver_provider.dart:6:40 • undefined_identifier
+  error • Target of URI doesn't exist: 'package:cloud_firestore/cloud_firestore.dart' • lib/core/providers/request_provider.dart:2:8 • uri_does_not_exist
+  error • Undefined class 'FirebaseFirestore' • lib/core/providers/request_provider.dart:6:9 • undefined_class
+  error • Undefined name 'FirebaseFirestore' • lib/core/providers/request_provider.dart:6:40 • undefined_identifier
+  error • Target of URI doesn't exist: 'ui/screens/splash_screen.dart' • lib/core/routes.dart:2:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'ui/screens/role_selection_screen.dart' • lib/core/routes.dart:3:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'ui/screens/user_registration_screen.dart' • lib/core/routes.dart:4:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'ui/screens/driver_registration_screen.dart' • lib/core/routes.dart:5:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'ui/screens/driver_dashboard_screen.dart' • lib/core/routes.dart:6:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'ui/screens/searching_screen.dart' • lib/core/routes.dart:7:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'ui/screens/ads_screen.dart' • lib/core/routes.dart:8:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'ui/screens/support_screen.dart' • lib/core/routes.dart:9:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'ui/screens/admin_panel_screen.dart' • lib/core/routes.dart:10:8 • uri_does_not_exist
+  error • The name 'SplashScreen' isn't a class • lib/core/routes.dart:23:26 • creation_with_non_type
+  error • The name 'RoleSelectionScreen' isn't a class • lib/core/routes.dart:24:33 • creation_with_non_type
+  error • The name 'UserRegistrationScreen' isn't a class • lib/core/routes.dart:25:32 • creation_with_non_type
+  error • The name 'DriverRegistrationScreen' isn't a class • lib/core/routes.dart:26:34 • creation_with_non_type
+  error • The name 'DriverDashboardScreen' isn't a class • lib/core/routes.dart:27:35 • creation_with_non_type
+  error • The name 'AdsScreen' isn't a class • lib/core/routes.dart:28:23 • creation_with_non_type
+  error • The name 'SupportScreen' isn't a class • lib/core/routes.dart:29:27 • creation_with_non_type
+  error • The name 'AdminPanelScreen' isn't a class • lib/core/routes.dart:30:25 • creation_with_non_type
+   info • 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre • lib/core/theme/app_theme.dart:16:9 • deprecated_member_use
+  error • Target of URI doesn't exist: 'package:flutter_localizations/flutter_localizations.dart' • lib/main.dart:2:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'package:provider/provider.dart' • lib/main.dart:3:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: 'package:firebase_core/firebase_core.dart' • lib/main.dart:4:8 • uri_does_not_exist
+   info • Don't invoke 'print' in production code • lib/main.dart:18:5 • avoid_print
+  error • The function 'MultiProvider' isn't defined • lib/main.dart:22:5 • undefined_function
+  error • The function 'ChangeNotifierProvider' isn't defined • lib/main.dart:24:9 • undefined_function
+  error • The function 'ChangeNotifierProvider' isn't defined • lib/main.dart:25:9 • undefined_function
+  error • The function 'ChangeNotifierProvider' isn't defined • lib/main.dart:26:9 • undefined_function
+  error • The values in a const list literal must be constants • lib/main.dart:48:9 • non_constant_list_element
+  error • Undefined name 'GlobalMaterialLocalizations' • lib/main.dart:48:9 • undefined_identifier
+  error • The values in a const list literal must be constants • lib/main.dart:49:9 • non_constant_list_element
+  error • Undefined name 'GlobalWidgetsLocalizations' • lib/main.dart:49:9 • undefined_identifier
+  error • The values in a const list literal must be constants • lib/main.dart:50:9 • non_constant_list_element
+  error • Undefined name 'GlobalCupertinoLocalizations' • lib/main.dart:50:9 • undefined_identifier
+  error • Target of URI doesn't exist: 'package:cloud_firestore/cloud_firestore.dart' • lib/ui/screens/admin_panel_screen.dart:2:8 • uri_does_not_exist
+  error • The name 'QuerySnapshot' isn't a type, so it can't be used as a type argument • lib/ui/screens/admin_panel_screen.dart:105:26 • non_type_as_type_argument
+  error • Undefined name 'FirebaseFirestore' • lib/ui/screens/admin_panel_screen.dart:106:15 • undefined_identifier
+  error • Undefined name 'FirebaseFirestore' • lib/ui/screens/admin_panel_screen.dart:122:19 • undefined_identifier
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/ui/screens/admin_panel_screen.dart:124:17 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/screens/ads_screen.dart:46:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/screens/ads_screen.dart:46:74 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/screens/ads_screen.dart:85:68 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/screens/driver_dashboard_screen.dart:56:38 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/screens/driver_dashboard_screen.dart:56:75 • deprecated_member_use
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/ui/screens/driver_dashboard_screen.dart:116:13 • deprecated_member_use
+  error • Target of URI doesn't exist: 'package:google_maps_flutter/google_maps_flutter.dart' • lib/ui/screens/searching_screen.dart:2:8 • uri_does_not_exist
+  error • Undefined class 'GoogleMapController' • lib/ui/screens/searching_screen.dart:15:8 • undefined_class
+  error • Undefined class 'LatLng' • lib/ui/screens/searching_screen.dart:16:9 • undefined_class
+  error • The name 'LatLng' isn't a class • lib/ui/screens/searching_screen.dart:16:32 • creation_with_non_type
+  error • The method 'GoogleMap' isn't defined for the type '_SearchingScreenState' • lib/ui/screens/searching_screen.dart:28:11 • undefined_method
+  error • The method 'CameraPosition' isn't defined for the type '_SearchingScreenState' • lib/ui/screens/searching_screen.dart:30:36 • undefined_method
+  error • Invalid constant value • lib/ui/screens/searching_screen.dart:69:40 • invalid_constant
+  error • The getter 'black44' isn't defined for the type 'Colors' • lib/ui/screens/searching_screen.dart:69:47 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/screens/searching_screen.dart:83:66 • deprecated_member_use
+  error • The name 'RoleSelectionScreen' isn't a class • lib/ui/screens/splash_screen.dart:107:59 • creation_with_non_type
+warning • The value of the field '_locationDesc' isn't used • lib/ui/screens/user_registration_screen.dart:20:10 • unused_field
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/screens/user_registration_screen.dart:115:40 • deprecated_member_use
+  error • Target of URI doesn't exist: '../theme/app_colors.dart' • lib/ui/widgets/bottom_nav_bar.dart:2:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: '../routes.dart' • lib/ui/widgets/bottom_nav_bar.dart:3:8 • uri_does_not_exist
+  error • Undefined name 'AppColors' • lib/ui/widgets/bottom_nav_bar.dart:21:28 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/ui/widgets/bottom_nav_bar.dart:22:30 • undefined_identifier
+  error • Undefined name 'AppRoutes' • lib/ui/widgets/bottom_nav_bar.dart:27:26 • undefined_identifier
+  error • Undefined name 'AppRoutes' • lib/ui/widgets/bottom_nav_bar.dart:29:29 • undefined_identifier
+  error • Undefined name 'AppRoutes' • lib/ui/widgets/bottom_nav_bar.dart:30:29 • undefined_identifier
+  error • Undefined name 'AppRoutes' • lib/ui/widgets/bottom_nav_bar.dart:31:29 • undefined_identifier
+  error • Undefined name 'AppRoutes' • lib/ui/widgets/bottom_nav_bar.dart:32:29 • undefined_identifier
+  error • Target of URI doesn't exist: '../theme/app_colors.dart' • lib/ui/widgets/custom_button.dart:2:8 • uri_does_not_exist
+  error • Invalid constant value • lib/ui/widgets/custom_button.dart:28:41 • invalid_constant
+  error • Undefined name 'AppColors' • lib/ui/widgets/custom_button.dart:28:41 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/ui/widgets/custom_button.dart:36:21 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/ui/widgets/custom_button.dart:37:30 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/ui/widgets/custom_button.dart:38:31 • undefined_identifier
+  error • Invalid constant value • lib/ui/widgets/custom_button.dart:44:26 • invalid_constant
+  error • The values in a const list literal must be constants • lib/ui/widgets/custom_button.dart:44:26 • non_constant_list_element
+  error • Undefined name 'AppColors' • lib/ui/widgets/custom_button.dart:44:26 • undefined_identifier
+  error • The values in a const list literal must be constants • lib/ui/widgets/custom_button.dart:44:45 • non_constant_list_element
+  error • Undefined name 'AppColors' • lib/ui/widgets/custom_button.dart:44:45 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/ui/widgets/custom_button.dart:54:39 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/ui/widgets/custom_button.dart:54:59 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/ui/widgets/custom_button.dart:87:32 • undefined_identifier
+
+99 issues found. (ran in 1.8s)
